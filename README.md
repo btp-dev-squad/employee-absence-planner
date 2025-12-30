@@ -1,31 +1,30 @@
-# Aarini Node JS Starter Template
+# Employee Absence Planner
 
-# Branches
+A comprehensive application for managing employee absences, leave requests, and vacation planning.
 
-1. main - Productive branch
-2. develop - Development branch
-3. staging - Pre-production branch
+## Features
 
-## Branch Protection
+- Track employee absences and leave requests
+- Manage different types of leaves (vacation, sick leave, personal days)
+- Calendar view for team absence overview
+- Approval workflow for leave requests
+- Integration with HR systems
+- Reporting and analytics
 
-The branch protection rules are to be executed to prevent the productive landscape `main`, `develop` and `staging`. 
+## Technology Stack
 
-To set up the validation, setup the permission to the executables. The scripts can be executed via either the shell command or script file. 
+- SAP CAP (Cloud Application Programming Model)
+- SAPUI5 / Fiori Elements
+- SAP HANA Cloud Database
+- Node.js Runtime
 
-**Shell Command**
+## Getting Started
 
-```sh
-chmod +x ./scripts/setup.sh
+```bash
+npm install
+npm run dev
 ```
 
-**Script command**
+## License
 
-```sh
-chmod +x ./scripts/setup.js
-```
-
-After the executables permissions are set, then run the script to add branch protection rule. 
-
-```sh
-./scripts/setup.sh <repo_org> <repo_name> <github_token>
-```
+MIT
